@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*body
+{
+}
+
+#wrapper
+{
+    margin: 0;
+    padding: 10px;
+    height: 100vh;
+}
+
+
+#SalarioCalc {
+    background-color: rgba(0,0,0,0);
+    margin: 10px;
+}
+
+#SalarioCalc h1
+{
+    text-align: center;
+}
+
+#SalarioCalc input
+{
+    float: left;
+    display: block;
+    width: 20%;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+}
+
+#SalarioCalc label
+{
+    display: block;
+    float: left;
+    margin-left: 30%;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: -1px;
+}
+
+#SalarioCalc button
+{
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    width: 95px;
+}
+
+.divCalcSal
+{
+    width: 100%;
+    margin: 0;
+    height: 50px;
+}*/
+
+.jumbotron
+{
+    background-color: rgba(0,0,0,0);
+}
+
+.jumbotron h1
+{
+    text-align: center;
+}
+
+.inputDiv
+{
+    height: 46px;
+    margin: 5px;
+}
+
+.inputDiv label
+{
+    margin-left: 30%;
+    line-height: 35px;
+    float: left;
+    display: block;
+    height: 38px;
+    width: 205px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputDiv input
+{
+    float: left;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 20%;
+}
+
+.inputDiv button
+{
+    margin-left: 10px;
+    margin-top: 13px;
+    float: left;
+}
+
+.form-control
+{
+    text-align: center;
+}
+
+.inputDiv button
+{
+    margin: 0;
+    margin-left: 10px;
+}
+

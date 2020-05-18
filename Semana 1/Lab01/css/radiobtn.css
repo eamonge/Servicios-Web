@@ -1,0 +1,98 @@
+#RadioBtnDiv
+{
+	background-color: rgba(0,0,0,0);
+	/*border: solid 1px black;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.inputDiv
+{
+	float: left;
+	margin: 5px;
+	margin-left: 0!important;
+}
+
+.inputDiv label
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.lastinput label
+{
+	float: left;
+	width: 175px;
+	margin-right: 10px;
+}
+
+.inputDiv input
+{
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+
+#A
+{
+	width: 25%;
+}
+
+#A section
+{
+	color: white;	
+	background-color: #006699;
+	padding: 10px;
+}
+
+#B {
+	width: 74%;
+}
+
+#B section
+{
+	background-color: #006699;
+	padding: 10px;
+	height: 44px;
+}
+
+#B button
+{
+	margin: 5px;
+}
+
+
+.lastinput input[type="radio"]
+{
+	position: absolute!important;
+	left: 25px!important;
+}
+
+.lastinput label
+{
+	position: relative;
+	left: 5%;
+}
+
+.lastinput input
+{
+	position: relative;
+	left: 5%;
+}
+
+table
+{
+	width: 100%;
+}
+
+td
+{
+	text-align: center;
+	border: solid 1px black;
+}
+
+/*input[type="radio"]
+{
+	background-color: teal;
+}*/

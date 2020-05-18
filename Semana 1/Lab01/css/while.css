@@ -1,0 +1,53 @@
+#WhileDiv
+{
+    background-color: rgba(0,0,0,0);
+}
+
+#WhileDiv h1
+{
+    text-align: center;
+}
+
+.inputDiv
+{
+    height: 46px;
+    margin: 5px;
+}
+
+.inputDiv label
+{
+    margin-left: 30%;
+    line-height: 35px;
+    float: left;
+    display: block;
+    height: 38px;
+    width: 205px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputDiv input
+{
+    float: left;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 20%;
+}
+
+.inputDiv button
+{
+    margin-left: 10px;
+    margin-top: 13px;
+    float: left;
+}
+
+.form-control
+{
+    text-align: center;
+}
+
+.inputDiv button
+{
+    margin: 3px;
+    margin-left: 45%;
+}

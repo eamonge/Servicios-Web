@@ -1,0 +1,25 @@
+#HilRapidasDiv
+{
+
+}
+
+.halfinput {
+    width: 140px!important;
+}
+
+.secondhalfinput
+{
+    width: 140px!important;
+    margin-left: 0px!important;
+}
+
+.halflabel
+{
+    width: 45px!important;
+    margin-left: 0px!important;
+}
+
+#secondhalf
+{
+    margin-left: 10px!important;
+}
