@@ -33,51 +33,51 @@
                 <a class="nav-link" href="radiobtn.html">Radio Button</a>
             </li>
         </ul>
+        <!-- Contenido -->
         <div id="CBDiv" class="jumbotron">
             <h1 class="display-4">Arreglos</h1>
             <div class="inputDiv">
                 <label>Tamaño del Arreglo</label>
-                <input class="form-control" />
-                <button class="btn btn-dark">Llenar arreglo</button>
+                <input id="ArrSize" class="form-control" />
+                <button id="btnArray" class="btn btn-dark">Llenar arreglo</button>
             </div>
             <br />
             <div class="inputDiv">
                 <label>Límite del Random</label>
-                <input class="form-control" />
+                <input id="RandSize" class="form-control" />
             </div>
             <br />
             <h1 class="display-4">Controles</h1>
             <div id="RBtnDiv">
                 <div class="form-check">
                     <div class="groupingCheckB">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <input class="form-check-input" type="checkbox" value="" id="rdEven">
                         <label class="form-check-label" for="defaultCheck1">Remover números pares</label>
-                        <button class="btn btn-dark">Ver arreglo</button>
+                        <button id="btnView" class="btn btn-dark">Ver arreglo</button>
                     </div>
                     <br />
                     <div class="groupingCheckB">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <input class="form-check-input" type="checkbox" value="" id="rdMinTen">
                         <label class="form-check-label" for="defaultCheck1">Remover números menores a 10</label>
-                        <button class="btn btn-dark">Limpiar</button>
+                        <button id="btnClear" class="btn btn-dark">Limpiar</button>
                     </div>
                     <br />
                     <div class="groupingCheckB">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <input class="form-check-input" type="checkbox" value="" id="rdBgFifty">
                         <label class="form-check-label" for="defaultCheck1">Remover números mayores a 50</label>
-                    </div>
-                    <div id="resultadosarreglo">
-                        <label>Contenido del arreglo:</label>
-                        <input class="form-control"/>
                     </div>
                 </div>
             </div>
+            <br />
             <div id="Resultados">
-                <h1 class="display-4"></h1>
+                <h1 class="display-4">Resultados:</h1>
+                <h1 id="ArrayText" class="lead"></h1>
 
             </div>
 
         </div>
     </div>
+    <script src="../js/controlcb.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
