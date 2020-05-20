@@ -37,30 +37,32 @@
             <h1 class="display-4">Trabajo con Hileras</h1>
             <div class="inputDiv">
                 <label>Hilera 1:</label>
-                <input class="form-control" />
-                <button class="btn btn-dark">Ver</button>
+                <input id="string1" class="form-control" />
+                <button id="btnview" class="btn btn-dark">Ver</button>
             </div>
             <div class="inputDiv">
                 <label>Hilera 2:</label>
-                <input class="form-control" />
-                <button class="btn btn-dark">Limpiar</button>
+                <input id="string2" class="form-control" />
+                <button id="btnclear" class="btn btn-dark">Limpiar</button>
             </div>
+
+
             <h1 class="display-4">Resultados</h1>
             <div id="Resultados" class="inputDiv inputResultados">
                 <label>Hilera más larga:</label>
-                <input class="form-control" />
+                <input id="bgstLenght" class="form-control" readonly />
             </div>
             <div id="Resultados" class="inputDiv inputResultados">
                 <label>Hilera con más vocales:</label>
-                <input class="form-control" />
+                <input id="bgstVocl" class="form-control" readonly />
             </div>
             <div id="Resultados" class="inputDiv inputResultados">
                 <label>Hilera con más consonantes:</label>
-                <input class="form-control" />
+                <input id="bgstConst" class="form-control" readonly />
             </div>
             <div id="Resultados" class="inputDiv inputResultados">
                 <label>Hilera con más caracteres no alfanuméricos:</label>
-                <input class="form-control" />
+                <input id="bgstAlfNum" class="form-control" readonly />
             </div>
 
         </div>
@@ -68,5 +70,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="../js/hileras.js"></script>
 </body>
 </html>

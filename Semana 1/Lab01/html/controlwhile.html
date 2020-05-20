@@ -33,34 +33,36 @@
                 <a class="nav-link" href="radiobtn.html">Radio Button</a>
             </li>
         </ul>
+        <!-- Contenido -->
         <div id="WhileDiv" class="jumbotron">
             <h1 class="display-4">Cálculo del descuento</h1>
             <div class="inputDiv">
                 <label>Tipo de Cliente:</label>
-                <input class="form-control" />
+                <input id="typeClient" class="form-control" />
             </div>
             <div class="inputDiv">
                 <label>Subtotal:</label>
-                <input class="form-control" />
+                <input id="subTotal" class="form-control" />
             </div>
             <div class="inputDiv">
                 <label>Porcentaje Descuento:</label>
-                <input class="form-control" />
+                <input id="PercntDisc" class="form-control ViewInput" readonly/>
             </div>
             <div class="inputDiv">
                 <label>Monto Descuento:</label>
-                <input class="form-control" />
+                <input id="DiscMnt" class="form-control ViewInput" readonly/>
             </div>
             <div class="inputDiv">
                 <label>Total:</label>
-                <input class="form-control" />
+                <input id="PriceTotal" class="form-control ViewInput" readonly/>
             </div>
             <div class="inputDiv">
-                <button class="btn btn-dark">Calcular</button>
+                <button id="btnCalc" class="btn btn-dark">Calcular</button>
             </div>
 
         </div>
     </div>
+    <script src="../js/controlwhile.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

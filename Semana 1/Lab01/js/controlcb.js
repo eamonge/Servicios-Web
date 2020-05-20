@@ -112,8 +112,4 @@ function ClearArray()
     radiobtnMinTen.checked = false;
     radiobtnBgFifty.checked = false;
 
-    //if (radiobtnEven.checked == true) {
-    //    radiobtnEven.setAttribute('checked', false);
-    //}
-
 }
